@@ -1,9 +1,11 @@
 const AnimeList = () => {
-<<<<<<< HEAD
-  return <div>AnimeList components</div>;
-=======
-  return <div>AnimeList</div>;
->>>>>>> e56b31ab429f3c461aa43d4ae3f163603c1339e6
+  return (
+    <div className="grid grid-cols-3 gap-2">
+      <div className="bg-sky-500">Kotak 1</div>
+      <div className="bg-indigo-500">Kotak 2</div>
+      <div className="bg-indigo-500">Kotak 3</div>
+    </div>
+  );
 };
 
 export default AnimeList;
