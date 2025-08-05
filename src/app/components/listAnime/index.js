@@ -10,6 +10,7 @@ const AnimeList = () => {
           width={600}
           height={600}
         />
+        <h3>Title Of Anime here</h3>
       </div>
       <div className="bg-indigo-500">Kotak 2</div>
       <div className="bg-indigo-500">Kotak 3</div>
