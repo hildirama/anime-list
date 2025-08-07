@@ -5,12 +5,15 @@ const home = async () => {
     `${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime}`
   );
   const anime = await response.json();
-  console.log(anime);
 
   return (
     <div>
       <h1>MOST POPULAR</h1>
-      <AnimeList />
+      {anime.data.map((data) => {
+        return (
+          <AnimeList title={data.title} images={data.images.webp.image_url} />
+        );
+      })}
     </div>
   );
 };
