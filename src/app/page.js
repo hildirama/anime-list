@@ -9,7 +9,7 @@ const Home = async () => {
     <div>
       <h1>MOST POPULAR</h1>
       {anime.data.map(data => {
-      return <AnimeList title={data.title} images={data.images.webp.image_url}/>
+      return <AnimeList key={data} title={data.title} images={data.images.webp.image_url}/>
       })}
     </div>
   )  
