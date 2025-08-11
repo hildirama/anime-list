@@ -8,11 +8,11 @@ const Home = async () => {
 
   return (
     <div>
-      <div className="flex justify-between p-4 items-center">
+      <div className="flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold">MOST POPULAR</h1>
         <Link href="/populer" className="md:text-xl text-md underline hover:text-indigo-500 transition-all">Show All</Link>
       </div>
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 px-4">
       {anime.data.map(data => {
       return (
         <div key={data.mal_id} className="shadow-xl">

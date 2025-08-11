@@ -5,7 +5,7 @@ const Navbar = () => {
         <header className="bg-indigo-500">
             <div className="flex md:flex-row flex-col justify-between p-4 gap-2">
                 <Link href="/" className="font-bold text-white text-2xl">HiAnimelist</Link>
-                <input placeholder="search anime..." className=".."/>
+                <input placeholder="search anime..." className=""/>
             </div>
         </header>
     )
