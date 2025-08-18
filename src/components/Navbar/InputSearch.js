@@ -15,7 +15,7 @@ const InputSearch = () => {
   return (
     <form className="relative">
         <input placeholder="search anime..." 
-        className="w-full p-2 rounded"
+        className="w-full p-2 rounded bg-white text-black"
         ref={searchRef}/>
         <button type="submit" className="absolute top-2 end-2" onClick={handleSearch}>
           <MagnifyingGlass size={24} />
